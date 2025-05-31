@@ -19,7 +19,7 @@ Import-Module -Path ./PSNixOS.psd1
 ### Option 2: Dot-sourcing
 Alternatvely, you may dot-source each of the functions manually:
 ```PowerShell
-Get-ChildItem | ForEach-Item {
+Get-ChildItem | ForEach-Object {
   . $_
 }
 ```
