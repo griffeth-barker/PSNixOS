@@ -6,7 +6,7 @@ These functions are for you. Is this important? Nope! But it feels better to me,
   
 ## Getting Started  
 ### Get the Module
-[![PSGallery Version](https://img.shields.io/powershellgallery/v/PSNixOS.png?style=for-the-badge&label=PowerShell%20Gallery)](https://www.powershellgallery.com/packages/PSNixOS/) [![PSGallery Downloads](https://img.shields.io/powershellgallery/dt/PSNixOS.png?style=for-the-badge&label=Downloads)](https://www.powershellgallery.com/packages/PSBluesky/)  
+[![PSGallery Version](https://img.shields.io/powershellgallery/v/PSNixOS.png?style=for-the-badge&label=PowerShell%20Gallery)](https://www.powershellgallery.com/packages/PSNixOS/) [![PSGallery Downloads](https://img.shields.io/powershellgallery/dt/PSNixOS.png?style=for-the-badge&label=Downloads)](https://www.powershellgallery.com/packages/PSNixOS/)  
   
 You can install the module from the PowerShell Gallery.
   
