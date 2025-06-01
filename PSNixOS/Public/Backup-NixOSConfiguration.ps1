@@ -55,3 +55,5 @@ function Backup-NixOSConfiguration {
   }
 
 }
+
+Export-ModuleMember -Function Backup-NixOSConfiguration
