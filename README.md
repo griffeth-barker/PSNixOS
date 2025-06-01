@@ -1,5 +1,5 @@
 # PSNixOS  
-![](images\psnixos-icon-128x128.png)  
+![](images/psnixos-icon-128x128.png)  
   
 PSNixOS is a basic and unofficial PowerShell module for verifying, testing, and applying your NixOS configuration file.  
   
