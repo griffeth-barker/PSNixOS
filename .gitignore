@@ -11,6 +11,8 @@ Thumbs.db
 ### VisualStudioCode ###
 .vscode
 .vscode/*
+/.vscode
+/.vscode/*
 
 # Local History for Visual Studio Code
 .history/
