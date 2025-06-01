@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'PSNixOS.psm1'
+RootModule = '.\PSNixOS.psm1'
 
 # Version number of this module.
 ModuleVersion = '0.0.1'
@@ -66,14 +66,19 @@ Description = 'A collection of basic PowerShell functions for verifying, testing
 # FormatsToProcess = @()
 
 # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-# NestedModules = @()
+# NestedModules = @(
+#     ".\Public\Backup-NixOSConfiguration.psm1",
+#     ".\Public\Build-NixOSConfiguration.psm1",
+#     ".\Public\Set-NixOSConfiguration.psm1",
+#     ".\Public\Test-NixOSConfiguration.psm1"
+# )
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
-    "Backup-NixOSConfiguration.ps1",
-    "Build-NixOSConfiguration.ps1",
-    "Set-NixOSConfiguration.ps1",
-    "Test-NixOSConfiguration.ps1"
+    "Backup-NixOSConfiguration",
+    "Build-NixOSConfiguration",
+    "Set-NixOSConfiguration",
+    "Test-NixOSConfiguration"
 )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
@@ -102,6 +107,7 @@ PrivateData = @{
         # Tags applied to this module. These help with module discovery in online galleries.
         Tags = @(
             "NixOS"
+            "PowerShell"
         )
 
         # A URL to the license for this module.
