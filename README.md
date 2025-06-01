@@ -1,5 +1,6 @@
 # PSNixOS  
 ![](images\psnixos-icon-128x128.png)  
+  
 PSNixOS is a basic and unofficial PowerShell module for verifying, testing, and applying your NixOS configuration file.  
   
 Do you use PowerShell as your primary shell on NixOS? Does it feel wrong to type Linux commands into your PowerShell command-line?  
