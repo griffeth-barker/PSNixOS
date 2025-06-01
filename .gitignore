@@ -9,6 +9,7 @@ coverage.xml
 ehthumbs.db
 Thumbs.db
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 
 # Local History for Visual Studio Code
