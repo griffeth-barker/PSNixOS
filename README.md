@@ -1,5 +1,6 @@
 # PsNixOs  
-A basic PowerShell module for verifying, testing, and applying your NixOS configuration file.  
+![](images\psnixos-icon-128x128.png)  
+A basic and unofficial PowerShell module for verifying, testing, and applying your NixOS configuration file.  
   
 Do you use PowerShell as your primary shell on NixOs? Does it feel wrong to type Linux commands into your PowerShell command-line?  
 These functions are for you. Is this important? Nope! But it feels better to me, so it exists.  
